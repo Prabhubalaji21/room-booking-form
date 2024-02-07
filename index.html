@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Room Booking Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form action="booking.php" method="post">
+        <div>
+            <label for="booking_person_name">Name:</label>
+            <input type="text" id="booking_person_name" name="booking_person_name" required>
+        </div>
+        <div>
+            <label for="booking_person_district">District:</label>
+            <input type="text" id="booking_person_district" name="booking_person_district" required>
+        </div>
+        <div>
+            <label for="booking_person_name_1">Name 1:</label>
+            <input type="text" id="booking_person_name_1" name="booking_person_name_1" required>
+        </div>
+        <div>
+            <label for="booking_person_name_2">Name 2:</label>
+            <input type="text" id="booking_person_name_2" name="booking_person_name_2">
+        </div>
+        <div>
+            <label for="booking_person_name_3">Name 3:</label>
+            <input type="text" id="booking_person_name_3" name="booking_person_name_3">
+        </div>
+        <div>
+            <label for="booking_person_name_4">Name 4:</label>
+            <input type="text" id="booking_person_name_4" name="booking_person_name_4">
+        </div>
+        <div>
+            <label for="check_in_date">Check in date:</label>
+            <input type="date" id="check_in_date" name="check_in_date" required>
+        </div>
+        <div>
+            <label for="check_in_time">Check in Time:</label>
+            <input type="time" id="check_in_time" name="check_in_time" required>
+        </div>
+        <div>
+            <label for="room_type">Room type:</label>
+            <select id="room_type" name="room_type" required>
+                <option value=""></option>
+                <option value="single_bed">Single Bed room</option>
+                <option value="double_bed">Double bed room</option>
+                <option value="family_dormitory">Family / Dormitory</option>
+            </select>
+        </div>
+        <div>
+            <label for="guest_count">Guest count:</label>
+            <input type="number" id="guest_count" name="guest_count" required>
+        </div>
+        <div>
+            <label for="aadhar_no">Aadhar no:</label>
+            <input type="text" id="aadhar_no" name="aadhar_no" required>
+        </div>
+        <div>
+            <label for="taluk">Taluk:</label>
+            <input type="text" id="taluk" name="taluk" required>
+        </div>
+        <div>
+            <label for="additional_persons_cot_charge">Additional persons/cot charge:</label>
+            <input type="number" id="additional_persons_cot_charge" name="additional_persons_cot_charge" required>
+        </div>
+        <div>
+            <label for="mobile_number_1">Mobile number 1:</label>
+            <input type="tel" id="mobile_number_1" name="mobile_number_1" required>
+        </div>
+        <div>
+            <button type="submit">Book</button>
+        </div>
+    </form>
+</body>
+</html>
